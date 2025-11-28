@@ -1,0 +1,22 @@
+/* Reiniciar el navegador para evitar diferencia de estilos */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+
+/* estilos generales del cuerpo de la pagina*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background: rgb(208, 181, 245);
+    color: rgb(94, 15, 167);
+}
+
+/* estilos para el encabezado con degradado*/
+.site-header{
+    background: linear-gradient(90deg, #d09aee,#3e0972);
+    color:#2c0342;
+    padding: 2rem;
+    text-align: center;
+}
